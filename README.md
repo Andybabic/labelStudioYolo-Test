@@ -50,7 +50,4 @@ Viel Spaß beim Lernen und Entwickeln!
 Babic Andy
 
 
-perl
-Copy code
 
-Bitte ersetzen Sie `<GitHub-Projekt-URL>` und `<Projektverzeichnis>` durch die entsprechenden Informationen für Ihr GitHub-Projekt. Sie können auch den Lizenzlink aktualisieren, wenn Ihr Projekt unter einer anderen Lizenz steht.
