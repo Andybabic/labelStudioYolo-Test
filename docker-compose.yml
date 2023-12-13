@@ -2,17 +2,6 @@ version: "3.8"
 
 
 services:
-  labelstudio:
-    image: heartexlabs/label-studio:latest
-    container_name: labelstudio
-    volumes:
-      - ./labelstudio:/label-studio/data
-    ports:
-      - "8080:8080"
-
-
-
-      
   fastapi:
     build: ./api
     restart: "always"
