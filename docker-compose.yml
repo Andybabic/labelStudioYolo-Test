@@ -1,0 +1,24 @@
+version: "3.8"
+
+
+services:
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    container_name: labelstudio
+    volumes:
+      - ./labelstudio:/label-studio/data
+    ports:
+      - "8080:8080"
+
+
+
+      
+  fastapi:
+    build: ./api
+    restart: "always"
+    volumes:
+    - ./api:/app
+    working_dir: /app
+    ports:
+      - "8001:8001"
+    command: uvicorn main:app --reload --host 0.0.0.0 --port 8001
