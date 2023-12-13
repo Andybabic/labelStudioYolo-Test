@@ -28,6 +28,7 @@ Bitte folgen Sie diesen Schritten, um am Workshop teilzunehmen:
    ```bash
    git clone <GitHub-Projekt-URL>
    cd <Projektverzeichnis>
+   docker-compose up 
 
 Starten Sie die Workshop-Umgebung mit Docker Compose:
 bash
