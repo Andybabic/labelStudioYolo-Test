@@ -10,6 +10,7 @@ Das Hauptziel dieses Workshops ist es, Ihnen beizubringen, wie Sie ein YOLO-Mode
 2. Vorbereiten und organisieren Sie Ihre annotierten Daten.
 3. Konfigurieren Sie das YOLO-Modell und führen Sie das Training durch.
 4. Erstellen Sie eine FastAPI-Anwendung zur Verwendung Ihres trainierten Modells.
+5. Kleiner Interface mit vue.js
 
 ## Voraussetzungen
 
@@ -30,24 +31,24 @@ Bitte folgen Sie diesen Schritten, um am Workshop teilzunehmen:
    cd <Projektverzeichnis>
    docker-compose up 
 
-Starten Sie die Workshop-Umgebung mit Docker Compose:
-bash
-Copy code
-docker-compose up
-Dies startet die erforderlichen Container und Dienste für den Workshop.
-Befolgen Sie die im Workshop-Dokument enthaltenen Anweisungen (siehe Workshop-Dokumentation unten), um den Workshop abzuschließen.
-Nach Abschluss des Workshops haben Sie ein trainiertes YOLO-Modell und eine FastAPI-Anwendung zur Objekterkennung.
-Workshop-Dokumentation
+2. Starten Sie die Workshop-Umgebung mit Docker Compose:
+   ```bash
+   docker-compose up
 
-Die detaillierten Anweisungen für die einzelnen Workshop-Schritte finden Sie in der Workshop-Dokumentation, die im Workshop-Verzeichnis verfügbar ist. Bitte konsultieren Sie diese Dokumentation für ausführliche Anleitungen.
+   
+Dies startet die erforderlichen Container und Dienste für den Workshop.
+
 
 Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
 
-Wir hoffen, dass Ihnen dieser Workshop hilfreich ist und Ihnen ermöglicht, Ihre Kenntnisse in der Annotierung von Daten und der Entwicklung von YOLO-Modellen zu vertiefen. Wenn Sie Fragen oder Feedback haben, zögern Sie nicht, sie im Issue-Tracker zu melden.
+Ich hoffe, dass Ihnen dieser Workshop hilfreich ist und Ihnen ermöglicht, Ihre Kenntnisse in der Annotierung von Daten und der Entwicklung von YOLO-Modellen zu vertiefen. Wenn Sie Fragen oder Feedback haben, zögern Sie nicht, sie im Issue-Tracker zu melden.
 
 Viel Spaß beim Lernen und Entwickeln!
+
+Babic Andy
+
 
 perl
 Copy code
